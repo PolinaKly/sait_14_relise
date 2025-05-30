@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(20, 128, 16);
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: georgia, serif;
+  background-color: #3a9c18;
+  color: black;
+  text-align: center;
+}
+
+.hero {
+  background-color: #5dc839;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  width: 50%;
+  font-size: 20px;
+}
+
+.intro-img {
+  width: 200px;
+  border-radius: 3px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.dish {
+  width: 30%;
+  margin: 10px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dish-title {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.reviews {
+  padding: 20px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.review img:hover {
+  margin: 10px;
+  transform: scale(1.1);
+  transition: 3s linear;
+}
+
+.review img {
+  border-radius: 50%;
+}
+
+.location {
+  padding: 20px;
+}
+
+.map img {
+  width: 300px;
+  border: 2px solid black;
+  transition: scale 0.3s ease;
+}
+
+.map img:hover {
+  margin: 100px;
+  transform: scale(1.5);
+  transition: 6s linear;
+}
+
+.address-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #5dc839;
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+  color: #000000;
+  font-size: 14px;
+  align-items: baseline;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.socials a {
+  margin-left: 10px;
+}

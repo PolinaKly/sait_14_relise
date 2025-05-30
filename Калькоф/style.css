@@ -1,0 +1,120 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #0b5203, #1a6e10);
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: #4b8d4b;
+  padding: 40px;
+  text-shadow: 2px 2px 5px black;
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0;
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  background-color: #0e3f0e;
+  border-top: 3px solid #2fff69;
+}
+
+.about-text {
+  max-width: 300px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.about .logo {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px limegreen;
+}
+
+.catalog h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.game {
+  background: #1b5e20;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
+  box-shadow: 0 0 10px #0f0;
+  transition: transform 0.3s;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
+.game img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.reviews {
+  background: #123312;
+  padding: 40px 20px;
+}
+
+.reviews h1 {
+  font-size: 30px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #006400;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.review img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.review img:hover {
+  transform: scale(1.1);
+}
+
+.review div {
+  display: flex;
+  flex-direction: column;
+}
+
+.discount {
+  background-color: #225522;
+  padding: 40px 20px;
+}
+
+.discount h1 {
+  color: #ffcc00;
+}

@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffd3aa;
+  color: black;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav u1 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: black;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+nav ul li a:hover {
+  transform: translateY(-3px);
+}
+
+.nav-link {
+  border-radius: 5%;
+  background-color: rgb(228, 193, 80);
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-img img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.catalog {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.item {
+  text-align: center;
+  width: 150px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.reviews {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.map {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.map img {
+  width: 250px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #ffd3aa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
+
+a:hover {
+  box-shadow: 3px 5px 10px rgb(0, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,237 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: #87ceeb;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 5px solid #87ceeb;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  padding: 6px 12px;
+  background: #4bb3de;
+  color: #111;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about img {
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.about {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 500px;
+  font-size: 20px;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+}
+
+.catalog {
+  text-align: center;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.product {
+  background-color: #87ceeb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 17px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.reviews {
+  padding: 30px;
+  text-align: center;
+}
+
+.review {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  font-size: 25px;
+}
+
+.review img {
+  width: 100px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.location {
+  text-align: center;
+  padding: 70px;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #87ceeb;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+.socials {
+  text-align: center;
+  font-size: 25px;
+}
+
+.nomer {
+  background-color: #4bb3de;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  background: rgb(97, 155, 158);
+}
+
+.product:hover {
+  background-color: #e0ffff;
+  border: solid #b0c4de;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.img-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.img-wrapper .hover-img {
+  opacity: 0;
+}
+
+.img-wrapper:hover .hover-img {
+  opacity: 1;
+}
+
+.img-wrapper:hover .default-img {
+  opacity: 0;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(2deg);
+  }
+  20% {
+    transform: rotate(-2deg);
+  }
+  30% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+header h1 {
+  animation: wave 3s infinite;
+}
+
+.product {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  background-color: #e0ffff;
+  border: 2px solid #b0c4de;
+}
+
+nav a {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  background-color: rgb(97, 155, 158);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}

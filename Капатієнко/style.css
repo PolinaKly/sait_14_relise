@@ -1,0 +1,149 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(116, 21, 21);
+  margin: 0;
+
+  color: #fff;
+}
+
+header {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.title {
+  max-width: 50%;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.title p {
+  font-size: 25px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 135px;
+  height: 40px;
+  font-size: 20px;
+}
+
+header img {
+  width: 500px;
+  height: auto;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu h2 {
+  font-size: 50px;
+}
+
+.item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.item img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text h3 {
+  margin: 0;
+}
+
+.text p {
+  margin: 5px 0;
+}
+
+.text span {
+  margin-left: 10px;
+}
+
+.promo {
+  padding: 20px;
+  text-align: center;
+}
+
+.promo-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.promo-items div {
+  width: 100px;
+}
+
+.promo-items img {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.about {
+  background: #000;
+  padding: 20px;
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer img {
+  width: 50px;
+  margin: 0 5px;
+}
+
+.promo-items p {
+  font-size: 25px;
+}
+
+.items img:hover {
+  transform: scale(1.5);
+  transition: 1.5s liner;
+}
+
+.item p {
+  font-size: 25px;
+}
+
+.contacts p {
+  font-size: 22px;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+
+button:hover {
+  box-shadow: 3px 5px 10px white;
+}
+
+.logo img:hover {
+  transform: scale(1.5);
+  transition: 1.5s liner;
+}

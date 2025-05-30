@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 56px;
+  background: url(https://www.riko.si/ua/imagelib/12/default/riko/dejavnosti/informacijska_tehnologija/shutterstock_1043722582.jpg)
+    no-repeat center center / cover;
+  height: 400px;
+  width: 100%;
+  opacity: 0.4; /* Прозорість */
+  z-index: 1;
+}
+
+header img {
+  opacity: 70%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #c9cfe5;
+  color: #000;
+}
+
+.hero {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 100px;
+  color: black;
+}
+
+.order-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 1s linear;
+}
+
+.catalog {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.catalog h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.product img {
+  max-width: 500px;
+  height: auto;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 1s linear;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  background: #e0e0e0;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-img img {
+  max-width: 300px;
+  height: auto;
+}
+
+.address {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer {
+  background: #d1d1d1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-left p {
+  margin: 0 0 10px 0;
+}
+
+.icons img {
+  margin-right: 10px;
+}
+
+.footer-right h2 {
+  font-size: 50px;
+}
+
+button:hover {
+  border: dashed #87cefa;
+  font-size: 20px;
+  transition: 1s linear;
+}
+
+.product:hover {
+  box-shadow: 15px 15px 15px #8585cf;
+  transition: 0.5s;
+}

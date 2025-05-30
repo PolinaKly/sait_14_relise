@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #ddd;
+  padding: 10px;
+  transition: 1s linear;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.about {
+  padding: 30px;
+  background-color: black;
+}
+
+.about h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-content p {
+  max-width: 60%;
+  font-size: 16px;
+}
+
+.about-content img {
+  max-width: 100px;
+}
+
+.shop {
+  padding: 30px;
+  text-align: center;
+}
+
+.shop h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.product {
+  max-width: 200px;
+  transition: 1s linear;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  transition: 1s linear;
+}
+
+.more-btn {
+  background: lightgray;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  transition: 1s linear;
+}
+
+.more-btn1 {
+  background: lightgray;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  transition: 1s linear;
+}
+
+.reviews {
+  padding: 30px;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.review img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.sticky-contact {
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  background: #f0f0f0;
+  color: black;
+  padding: 15px;
+  width: 180px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sticky-contact button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 10px;
+  width: 100%;
+  transition: 1s linear;
+}
+
+a {
+  transition: 1s linear;
+}
+
+.find-us {
+  padding: 30px;
+  text-align: center;
+}
+.map {
+  max-width: 90%;
+  margin-top: 15px;
+}
+.address {
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #ccc;
+  color: black;
+  padding: 15px;
+}
+
+.footer-right img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.product img:hover {
+  border: 5px solid gold;
+  transition: 0.5s;
+  border-radius: 15%;
+  transform: scale(1.1);
+  z-index: 10;
+  position: relative;
+}
+button:hover {
+  color: #003773;
+  transition: 0.5s;
+  background-color: gold;
+  border-radius: 30%;
+}
+
+a:hover {
+  color: #003773;
+  transition: 1.5s;
+}
+
+nav:hover {
+  background-color: gold;
+  transition: 1.5s;
+}
